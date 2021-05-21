@@ -1,0 +1,31 @@
+.addressDetails {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 30px;
+	overflow-x: hidden;
+}
+
+.details {
+	width: 100%;
+	display: flex;
+	margin: 10px 0;
+	margin-left: 20px;
+}
+
+.details .field {
+	width: 20%;
+	text-align: right;
+	color: #a5a5a5;
+}
+
+.details .value {
+	color: #5e5e5e;
+	width: 60%;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.map {
+	overflow: hidden;
+}

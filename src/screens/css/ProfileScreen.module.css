@@ -1,0 +1,49 @@
+.pageWrapper {
+	width: 80%;
+	margin: 0 auto;
+	height: 100vh;
+	display: flex;
+}
+
+.container {
+	width: 100%;
+	margin: 35px;
+	display: flex;
+}
+
+.sideNav {
+	display: flex;
+	align-items: center;
+	width: 20%;
+	background: #3f55c8;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.sideNav .links {
+	width: 70%;
+	margin: auto;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.sideNav .link {
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 10px 0;
+	border-bottom: solid 2px #ccc;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+.sideNav .link:last-child {
+	border-bottom: none;
+}
+
+.main {
+	width: 80%;
+}

@@ -1,0 +1,24 @@
+.companyDetails {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.details {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.details .field {
+	width: 40%;
+	text-align: right;
+	color: #a5a5a5;
+}
+
+.details .value {
+	color: #5e5e5e;
+	width: 60%;
+	text-align: left;
+	margin-left: 10px;
+}

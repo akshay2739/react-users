@@ -1,0 +1,60 @@
+.homeScreenWrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+}
+
+.userListWrapper {
+	width: 35%;
+	height: 70vh;
+	border-radius: 30px;
+	box-shadow: 0px 5px 10px #ccc, 0 5px 10px #ccc;
+	overflow: hidden;
+}
+
+.userListWrapper p {
+	background-color: #f6f6f6;
+	padding: 25px 0;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.userList {
+	padding: 0 25px;
+	height: 100%;
+	overflow-y: scroll;
+	/* For Firefox */
+	scrollbar-width: none;
+}
+
+/* For other browser */
+.userList::-webkit-scrollbar {
+	width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+.userCard {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: solid 1px #ccc;
+	/* To change color of link */
+	color: #5d5f5d;
+	text-decoration: none;
+}
+
+.userCard img {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	object-fit: cover;
+}
+
+.userCard p {
+	font-weight: 500;
+	font-size: 18px;
+	background-color: transparent;
+	margin-left: 15px;
+	padding: 0;
+}
